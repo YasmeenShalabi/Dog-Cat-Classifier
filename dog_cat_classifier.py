@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 # https://www.kaggle.com/datasets/tongpython/cat-and-dog/data
 # Define paths to the dataset (update these paths with the actual dataset location)
-train_dir = r'C:\Users\17325\Downloads\AI_Udemy\archive (5)\training_set'
-validation_dir = r'C:\Users\17325\Downloads\AI_Udemy\archive (5)\test_set'
+train_dir = r'C:\Users\17325\Downloads\AI_Udemy\archive (5)\training_set\training_set'
+validation_dir = r'C:\Users\17325\Downloads\AI_Udemy\archive (5)\test_set\test_set'
 
 # Define ImageDataGenerators for data augmentation and rescaling
 train_datagen = ImageDataGenerator(
