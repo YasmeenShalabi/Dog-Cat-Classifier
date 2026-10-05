@@ -119,4 +119,4 @@ def predict_image(model, img_path):
         print(f"The image is predicted to be a Cat with a confidence of {1 - prediction}")
 
 #Example: test the classifier with a new image
-predict_image(model, ''C:\Users\17325\Downloads\AI_Udemy\test-image.jpeg'')
+predict_image(model, r'C:\Users\17325\Downloads\AI_Udemy\test-image.jpeg')
