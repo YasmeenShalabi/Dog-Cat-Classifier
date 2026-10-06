@@ -112,6 +112,7 @@ def predict_image(model, img_path):
     img_array /= 255.0 #Normalize the image (rescale pixel values to [0,1])
 
     prediction=model.predict(img_array) #make the prediction
+    print("Raw prediction:", prediction)
 
     if prediction[0] > 0.5:
         print(f"The image is predicted to be a Dog with a confidence of {prediction}")
